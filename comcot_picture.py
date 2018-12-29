@@ -19,8 +19,7 @@ line3 = []
 for line in lines:
     line2 = line.split('\n')
     line2 = ''.join(line2)
-    line2 = line2.split('  ')
-    line2.remove('')
+    line2 = line2.split()
     line3 = line3 + line2
 print(line3)
 
